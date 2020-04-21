@@ -1,0 +1,118 @@
+body{ 
+    margin-left: 0%;
+    margin-top: 78px;
+    background: black;
+}
+
+img{
+    position: absolute;
+}
+
+#canvas{
+    background-image: url(../images/space2.gif); 
+    border:1px outset orange;
+}
+
+#heart{
+    position:absolute; 
+    left:40px;
+    top:95px; 
+}
+
+#pause{
+    position:absolute; 
+    left:1270px;
+    top:95px; 
+}
+
+#music{
+    position:absolute; 
+    left:1360px;
+    top:96px; 
+}
+
+#sound{
+    position:absolute; 
+    left:1440px;
+    top:93px; 
+}
+
+#pause2{
+    position:absolute; 
+    left:1270px; 
+    top:95px; 
+    visibility: hidden;
+}
+
+#music2{
+    position:absolute; 
+    left:1360px; 
+    top:96px; 
+    visibility: hidden;
+}
+
+#sound2{
+    position:absolute;
+    left:1440px; 
+    top:93px; 
+    visibility: hidden;
+}
+
+#play{
+    left:625px; 
+    top:250px; 
+    width:250px; 
+    height: 250px;
+}
+
+#pauseGif{
+    position:absolute; 
+    left:490px; 
+    top:200px; 
+    visibility: hidden;
+}
+
+.allPlayers{
+    display: none;
+}
+
+#finish{
+    left:460px; 
+    top:220px; 
+    width:600px; 
+    height: 400px; 
+    visibility: hidden;
+}
+      
+#for_myScore{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -380px;
+    color: red;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Verdana";
+}
+
+#replay{
+    left:510px; 
+    top:430px; 
+    width:250px; 
+    height: 80px; 
+    visibility: hidden;
+}
+
+#leaderboard{
+    left:765px; 
+    top:425px; 
+    width:230px; 
+    height: 90px; 
+    visibility: hidden;
+}
+
+#congrats{
+    left:930px; 
+    top:185px; 
+    height: 440px; 
+    visibility: hidden;
+}
