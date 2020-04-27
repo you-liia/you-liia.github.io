@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+header{  
+    top: 0;  
+    left: 0;  
+    width: 100%;
+    padding: 10px;   
+    position: fixed;  
+    border-bottom: 1px outset grey; 
+    background: url(../images/cosmos.gif); 
+}
+
+nav a:hover{    
+    background: #786b59; 
+    color: #ffe; 
+} 
+  
+.nav_item{ 
+    color: orange;
+    font-family: Arial;
+    font-size: 18px;   
+    font-weight: 800;  
+    text-transform: uppercase;  
+    text-decoration: none; 
+    
+    line-height: 1;  
+    display: inline-block; 
+    margin-right: 30px; 
+    padding: 20px; 
+}
+
+.language{
+    color: white;
+    text-decoration: none;
+    margin-left: 460px; 
+    padding: 15px;
+}
+
+.en_symbol{
+    margin-left: 528px;
+}
+
+.game{
+    margin-left: 248px; 
+}
+
+.ukr_game{
+    margin-left: 260px;
+}
+
+.headerLogo{
+    position: absolute; 
+    width: 200px; 
+    margin-left: 20px; 
+    margin-top: -2px;
+}
+
+/* -------------------------------  the end of HEADER part  ----------------------------------*/
