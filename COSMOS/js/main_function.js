@@ -14,14 +14,14 @@ var main_func = function() {
   			ctx.stroke();
 	
 			// move objects:
-			player2.player2_1.horizontalMovement();
-			player3.player3_1.horizontalMovement();
-			player4.player4_1.horizontalMovement();
-			player5.player5_1.horizontalMovement();
-			player6.player6_1.horizontalMovement();
-			player7.player7_1.horizontalMovement();
-			player8.player8_1.horizontalMovement();
-			player9.player9_1.horizontalMovement();
+			player2.horizontalMovement();
+			player3.horizontalMovement();
+			player4.horizontalMovement();
+			player5.horizontalMovement();
+			player6.horizontalMovement();
+			player7.horizontalMovement();
+			player8.horizontalMovement();
+			player9.horizontalMovement();
 
 			// score and hearts 
 			score();
@@ -33,6 +33,5 @@ var main_func = function() {
 	}
 }
 		
-var secondParam = 10;
 setInterval(main_func, secondParam);
 		

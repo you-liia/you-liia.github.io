@@ -43,21 +43,21 @@ var replayClick = function(){
     ctx.drawImage(my_image, hero_x, hero_y, hero_size, hero_size);
 
     // starting position for others:
-    player2.player2_1.x = pickRandomDistance();
-    player3.player3_1.x = pickRandomDistance();
-    player4.player4_1.x = pickRandomDistance();
-	player5.player5_1.x = pickRandomDistance();
-	player6.player6_1.x = pickRandomDistance();
-	player7.player7_1.x = pickRandomDistance();
-	player8.player8_1.x = pickRandomDistance();
-	player9.player9_1.x = pickRandomDistance();    
+    player2.x = pickRandomDistance();
+    player3.x = pickRandomDistance();
+    player4.x = pickRandomDistance();
+	player5.x = pickRandomDistance();
+	player6.x = pickRandomDistance();
+	player7.x = pickRandomDistance();
+	player8.x = pickRandomDistance();
+	player9.x = pickRandomDistance();    
 	// random character:
-	player2.player2_1.my_pic = pickRandomValue(characters); 
-	player3.player3_1.my_pic = pickRandomValue(characters); 
-	player4.player4_1.my_pic = pickRandomValue(characters); 
-	player5.player5_1.my_pic = pickRandomValue(characters); 
-	player6.player6_1.my_pic = pickRandomValue(characters); 
-	player7.player7_1.my_pic = pickRandomValue(characters); 
-	player8.player8_1.my_pic = pickRandomValue(characters);
-	player9.player9_1.my_pic = pickRandomValue(characters); 
+	player2.my_pic = pickRandomValue(characters); 
+	player3.my_pic = pickRandomValue(characters); 
+	player4.my_pic = pickRandomValue(characters); 
+	player5.my_pic = pickRandomValue(characters); 
+	player6.my_pic = pickRandomValue(characters); 
+	player7.my_pic = pickRandomValue(characters); 
+	player8.my_pic = pickRandomValue(characters);
+	player9.my_pic = pickRandomValue(characters); 
 }

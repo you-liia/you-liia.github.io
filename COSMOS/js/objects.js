@@ -33,43 +33,26 @@ var Player = function(x, y, my_pic){
 
 /*----------------------  objects  --------------------------*/
 var player2_y = 80;
-player2 = { 
-	player2_1: new Player(pickRandomDistance(), player2_y, pickRandomValue(characters))
-}
+player2 = new Player(pickRandomDistance(), player2_y, pickRandomValue(characters));
 
 var player3_y = 155;
-player3 = { 
-	player3_1: new Player(pickRandomDistance(), player3_y, pickRandomValue(characters))
-}
+player3 = new Player(pickRandomDistance(), player3_y, pickRandomValue(characters));
 
 var player4_y = 230;
-player4 = { 
-	player4_1: new Player(pickRandomDistance(), player4_y, pickRandomValue(characters))
-}
+player4 = new Player(pickRandomDistance(), player4_y, pickRandomValue(characters));
 
 var player5_y = 305;
-player5 = { 
-	player5_1: new Player(pickRandomDistance(), player5_y, pickRandomValue(characters))
-}	
-		
-var player6_y = 380;
-player6 = { 
-	player6_1: new Player(pickRandomDistance(), player6_y, pickRandomValue(characters))
-}	
+player5 = new Player(pickRandomDistance(), player5_y, pickRandomValue(characters));
 
+var player6_y = 380;
+player6 = new Player(pickRandomDistance(), player6_y, pickRandomValue(characters));
+	
 var player7_y = 455;
-player7 = { 
-	player7_1: new Player(pickRandomDistance(), player7_y, pickRandomValue(characters))
-}	
+player7 = new Player(pickRandomDistance(), player7_y, pickRandomValue(characters));
 
 var player8_y = 530;
-player8 = { 
-	player8_1: new Player(pickRandomDistance(), player8_y, pickRandomValue(characters))
-}
-		
+player8 = new Player(pickRandomDistance(), player8_y, pickRandomValue(characters));
+	
 var player9_y = 605;
-player9 = { 
-	player9_1: new Player(pickRandomDistance(), player9_y, pickRandomValue(characters))
-}
-
+player9 = new Player(pickRandomDistance(), player9_y, pickRandomValue(characters));
 

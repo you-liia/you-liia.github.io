@@ -7,6 +7,12 @@
 	font-size:18px; 
 }
 
+#wider_back{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+
 .my_mail{ 
 	color: orange;
 }
@@ -17,12 +23,14 @@
 	color: #585858;
 }
 
-#cosmonautImg{
+.cosmonautImg{
 	position: absolute; 
 	width: 250px; 
 	margin-left: 255px; 
 	margin-top: -135px;
 }
 
-
+#ukrcosmonautImg{
+	margin-left: 14%; 
+}
 

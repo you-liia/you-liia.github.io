@@ -13,6 +13,10 @@ img{
     border:1px outset orange;
 }
 
+.sorry{
+    color: red;
+}
+
 #heart{
     position:absolute; 
     left:40px;

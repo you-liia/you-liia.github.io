@@ -10,12 +10,16 @@ body{
 	margin-bottom: 100px;
 }
 
-#myText{
+.myText{
 	color: white; 
 	font-size: 60px; 
 	background: url(../images/wall1.gif); 
 	border-radius: 70px; 
 	padding: 40px;
+}
+
+#ukr_text1{
+	font-size: 54px;
 }
 
 .orangeWord{
@@ -66,7 +70,12 @@ body{
 }
 
 #yourPlayer{
-	margin-left:800px; 
+	margin-left: 800px; 
+	margin-top: -200px;
+}
+
+#ukr_yourPlayer{
+	margin-left: 1000px; 
 	margin-top: -200px;
 }
 
@@ -123,6 +132,11 @@ body{
 #bestResult{
 	margin-left: 550px; 
 	margin-top: -60px;
+}
+
+#ukr_bestResult{
+	margin-left: 550px;
+	margin-top:-100px;
 }
 
 #goodLuckImg{
